@@ -19,7 +19,7 @@ export default function Home() {
                 <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
                         <div className="absolute inset-0">
-                            <Image
+                            <img
                                 className="h-full w-full object-cover"
                                 width='500'
                                 height='500'
