@@ -3,7 +3,7 @@ import TodoInput from './TodoInput';
 import TodoList from './TodoList';
 
 export default function Todo() {
-    const [todos, setTodos] = useState([{ id: 1, value: 'Sample todo' }]);
+    const [todos, setTodos] = useState([{ id: 1, value: 'Sample todo item' }]);
 
     return (
         <div className="space-y-10">
