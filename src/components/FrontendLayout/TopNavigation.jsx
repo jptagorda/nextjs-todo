@@ -1,7 +1,7 @@
 import { Popover, Transition } from '@headlessui/react';
-import { Fragment } from 'react';
-import Link from 'next/link';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
+import { Fragment } from 'react';
 
 const navigation = [
     { name: 'Home', href: '/' },
@@ -18,6 +18,8 @@ export default function TopNavigation() {
                             <span className="sr-only">Your Company</span>
                             <img
                                 className="h-8 w-auto sm:h-10"
+                                width="100"
+                                height="100"
                                 src="https://tailwindui.com/img/logos/mark.svg?from-color=purple&from-shade=600&to-color=indigo&to-shade=600&toShade=600"
                                 alt=""
                             />
@@ -65,6 +67,8 @@ export default function TopNavigation() {
                                     <div>
                                         <img
                                             className="h-8 w-auto"
+                                            height="100"
+                                            width="100"
                                             src="https://tailwindui.com/img/logos/mark.svg?from-color=purple&from-shade=600&to-color=indigo&to-shade=600&toShade=600"
                                             alt="Your Company"
                                         />

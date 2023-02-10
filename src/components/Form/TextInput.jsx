@@ -1,17 +1,26 @@
 import clsx from 'clsx';
 import { forwardRef, useEffect, useRef } from 'react';
 
-export default forwardRef(function TextInput(
-    { type = 'text', name, id, value, className, autoComplete, required, isFocused, handleChange, fullWidth = false, placeholder = '' },
-    ref,
-) {
-    const input = ref ? ref : useRef();
+export default forwardRef(function TextInput({
+    type = 'text',
+    name,
+    id,
+    value,
+    className,
+    autoComplete,
+    required,
+    isFocused,
+    handleChange,
+    fullWidth = false,
+    placeholder = '',
+}) {
+    const input = useRef();
 
     useEffect(() => {
         if (isFocused) {
             input.current.focus();
         }
-    }, []);
+    });
 
     return (
         <div className="flex flex-col items-start">
