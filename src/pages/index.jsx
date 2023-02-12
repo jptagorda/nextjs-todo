@@ -30,8 +30,8 @@ export default function Home() {
                             <div className="absolute inset-0 bg-gradient-to-r from-blue-800 to-white mix-blend-multiply" />
                         </div>
                         <div className="relative space-y-16 py-16 px-6 sm:py-24 lg:py-32 lg:px-8">
-                            <h1 className="flex justify-center items-center text-center text-4xl font-bold tracking-tight sm:text-5xl text-white">
-                                Coded with <HeartIcon className="text-red-500 h-16 w-16 mx-3" /> using
+                            <h1 className="flex items-center justify-center text-center text-4xl font-bold tracking-tight text-white sm:text-5xl">
+                                Coded with <HeartIcon className="mx-3 h-16 w-16 text-red-500" /> using
                             </h1>
 
                             <div className="flex items-center justify-center space-x-5">
